@@ -10,14 +10,15 @@ image:
 
 以下是我的学习笔记
 
-RWD学习笔记
+
+<br/>RWD学习笔记
 <div class="tiles">
 {% for post in site.categories.rwd %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles 把所有categories 有 notes 的列出来-->
 
-Infovis学习笔记
+<br/>Infovis学习笔记
 <div class="tiles">
 {% for post in site.categories.infovis %}
   {% include post-grid.html %}
