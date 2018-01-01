@@ -1,0 +1,167 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/*box-sizing属性可以使构建CSS布局更容易*/
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+/*写css，如果用了浮动，浮动的父层不会跟着浮动框的高度增加而增加，在Firefox等符合W3C标准的浏览器中，如果有一个DIV作为外部容器，内部的DIV如果设置了float样式，则外部的容器DIV因为内部没有clear，导致不能被撑开。这个时候我们可以用clearfix清除浮动*/
+body {
+	font-family: sans-serif;
+	background: #f6f9fa;
+}
+.CenterMe {
+	background-color: red;
+	color: #ebebeb;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2rem;
+	text-transform: uppercase;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+iframe {
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+}
+h1 {
+	color: #ccc;
+	text-align: center;
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  outline: none;
+}
+
+/*Fun begins*/
+.tab_container {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 70px;
+	position: relative;
+}
+.tab_label_flex_container {
+	width: 100%;
+  display: -webkit-flex;
+  display:         flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0rem;
+}
+/* flex 设置弹性布局 */
+/* 设置弹性布局的方向，子元素按照在源文档中声明的顺序从上到下显示 */
+@media (min-width: 31.25em) {
+  .tab_label_flex_container {
+  flex-direction: row;
+  }
+  label[for=tab5] {
+      margin-left:auto;
+  }
+}
+
+input, section {
+  clear: both;
+  padding-top: 10px;
+  display: none;
+}
+
+label {
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 20%;
+  padding: 1.5em;
+  color: #757575;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+  padding: 20px;
+  background: #fff;
+  color: #999;
+  box-shadow: inset 0 3px #0CE;
+}
+/*在第一个单选按钮上使用了“tab1”的ID，我们在第一个内容上使用“tab-content1”，以此类推*/
+.tab_container .tab-content p,
+.tab_container .tab-content h3 {
+  -webkit-animation: fadeInScale 0.7s ease-in-out;
+  -moz-animation: fadeInScale 0.7s ease-in-out;
+  animation: fadeInScale 0.7s ease-in-out;
+}
+/*animation 属性是一个简写属性，用于设置六个动画属性：,这里是让标题和文章浮动出来，自己打开网址点点体验一下*/
+.tab_container .tab-content h3  {
+  text-align: center;
+}
+
+.tab_container [id^="tab"]:checked + label {
+  background: #fff;
+  box-shadow: inset 0 3px #0CE;
+}
+
+.tab_container [id^="tab"]:checked + .tab_label_flex_container label .fa {
+  color: #0CE;
+}
+/*通过使用：checked + label给活动标签一个不同的样式。这将更改附加到选中的复选框的标签的样式。然后，我们检查选中哪个复选框，并使用我们上面指定的ID显示与其相关的内容。（＃tab1：checked〜＃tab-content1）如果选中ID为“tab1”的复选框，将显示ID为“tab-content1”的内容框。*/
+label .fa {
+  font-size: 1.3em;
+  margin: 0 0.4em 0 0;
+}
+
+/*Media query*/
+@media only screen and (max-width: 900px) {
+  label span {
+    display: none;
+  }
+  
+  .tab_container {
+    width: 98%;
+  }
+}
+/*使用@media查询。为.tab容器设置最大宽度。*/
+/*Content Animation*/
+@keyframes fadeInScale {
+  0% {
+  	transform: scale(0.9);
+  	opacity: 0;
+  }
+  
+  100% {
+  	transform: scale(1);
+  	opacity: 1;
+  }
+}
+/*使用@media查询。设置动画的效果，和透明度（opacity）*/
+.no_wrap {
+  text-align:center;
+  color: #0ce;
+}
+.link {
+  text-align:center;
+}
+
+.tableauPlaceholder{margin:0 auto}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>响应式-蔡俊钦</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+	<style>
+		*{
+			padding: 0px;
+			margin: 0px;
+		}
+		.header{
+			height: 60px;
+			background-color: #000;
+			color: #b8b8b8;
+			line-height: 60px;
+			text-align: center
+		}
+		.s-one{
+			height: 600px;
+			background-color:#2BA3D4;
+			position: relative;
+		}
+		.s-one img{
+			margin-top: 100px;
+			position: absolute;
+			left: 50%;
+			margin-left: -100px;
+		}
+		.s-one p{
+			color: #ffffff;
+			position: absolute;
+			text-align:center;
+			width:100%;
+		}
+		.s-one p.p-one{
+			margin-top: 300px;
+			font-size: 35px;
+		}
+		.s-one p.p-two{
+			margin-top: 350px;
+			font-size: 20px;
+		}
+		.s-two{
+			height: 400px;
+			background-color:#170708;
+			position: relative;
+		}
+		.s-two .me{
+			font-size: 40px;
+			color: #ffffff;
+			text-align: center;
+			padding-top: 30px;
+		}
+		.s-two .jj-me{
+			color: #fff;
+			font-size: 25px;
+			text-align: center;
+			margin-top: 20px;
+		}
+        .miaoshu ul li {
+        	width: 25%;
+        	float: left;
+        	box-sizing: border-box;
+        	list-style: none;
+        	text-align: center
+        }
+        .footer{
+        	text-align: center;
+        	height: 60px;
+        	line-height: 30px;
+        	background-color: #fff;
+        	
+        }
+        .meimei{
+        	font-size: 20px;
+        	color: gray;
+
+        }
+		@media screen and (max-width: 600px) {
+ 		 .s-one{
+			height: 500px;
+			background-color:red;
+			position: relative;
+		}
+		.s-two{
+			height: 1100px;
+		}
+		.miaoshu ul li{
+			width: 100%;
+			text-align: center
+			 }
+
+		}
+	</style>
+</head>
+<body>
+	<header class="header">❥CaiJunQin❥</header>
+	<section class="s-one">
+		<div class="logo">
+			<img src="2542639393.png" alt="">
+		</div>
+		<p class="p-one">祝自己狗年大吉吧</p>
+		<p class="p-two">－－－－Cai Jun Qin－－－－</p>
+	</section>
+	<section class="s-two">
+		<p class="me">我就是我</p>
+		<p class="jj-me">希望能低分飘过</p>
+	    <div class="miaoshu">
+				<ul>
+					<li><img src="东.jpg" alt="">
+						<div class="meimei">今年18</div>
+					</li>
+					<li><img src="南.jpg" alt="">
+						<div class="meimei">喜欢听周杰伦的歌</div>
+					</li>
+					<li><img src="西.jpg" alt="">
+						<div class="meimei">觉得自己很酷</div>
+					</li>
+					<li><img src="北.jpg" alt="">
+						<div class="meimei">不想无所事事</div>
+					</li>
+				</ul>
+	    </div>	
+	</section>
+	<footer class="footer">
+		<div>随便写点东西在这这这....</div>
+		<div>Made by CaiJunQin</div>
+	</footer>
+</body>
+</html>

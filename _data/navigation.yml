@@ -1,0 +1,22 @@
+# Site navigation links
+
+ - title: 信息可视化作品集
+   url: /infovis/
+   excerpt: 
+   image: 1.jpg
+ 
+ 
+ 
+ 
+ - title: Web作品集
+   url: /portfolio/
+   excerpt: 
+   image: 2.jpg
+
+
+
+
+ - title: 学习笔记
+   url: /notes/
+   excerpt: 
+   image: 3.jpg  
