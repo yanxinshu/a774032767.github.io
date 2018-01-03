@@ -8,7 +8,7 @@ tags: []
 image: 
 ---
 
-<br/>信息可视化期末专案
+<br/>信息可视化作品
 <div class="tiles">
 {% for post in site.categories.infovis %}
   {% include post-grid.html %}
