@@ -11,7 +11,7 @@ image:
 以下是我的学习笔记
 
 
-<br/>#[RWD学习笔记](https://luojihao.github.io/posts/rwd)
+<br/>[RWD学习笔记](https://luojihao.github.io/posts/rwd)
 <div class="tiles">
 {% for post in site.categories.rwd %}
   {% include post-grid.html %}
@@ -19,7 +19,7 @@ image:
 </div><!-- /.tiles 把所有categories 有 rwd 的列出来-->
 
 
-<br/>#[Infovis学习笔记](https://luojihao.github.io/posts/infovis)
+<br/>[Infovis学习笔记](https://luojihao.github.io/posts/infovis)
 <div class="tiles">
 {% for post in site.categories.infovis %}
   {% include post-grid.html %}
