@@ -6,8 +6,6 @@ modified:
 excerpt: ""
 tags: []
 image: 
-  feature: Web in.gif 
-  teaser: Web in.gif
 ---
 
 以下是我的学习笔记
