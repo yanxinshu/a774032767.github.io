@@ -2,16 +2,16 @@
 
  - title: 信息可视化作品集
    url: /infovis/
-   excerpt: 一个关于运动品牌的信息可视化 
-   image: navigation 1.gif
+   excerpt: 信息可视化作品
+   image: navigation 1.jpg
  
  
  
  
  - title: Web作品集
    url: /portfolio/
-   excerpt: 喜欢王者的可以点开我的这个网页
-   image: navigation 2.gif
+   excerpt: 
+   image: navigation 2.jpg
 
 
 
@@ -19,12 +19,12 @@
  - title: 学习笔记
    url: /posts/
    excerpt: 网页制作与设计以及信息可视化的一点小笔记 
-   image: navigation 3.gif 
+   image: navigation 3.jpg 
    
  
  
  
  - title: 关于我
    url: /mine/
-   excerpt: 一点点个人资料，欢迎来撩 
-   image: navigation 4.gif 
+   excerpt:
+   image: navigation 4.jpg 
