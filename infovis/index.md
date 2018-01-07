@@ -18,7 +18,7 @@ style=
  height:auto;
  max-width:80%;
  max-height:80%;">
-<br/>信息可视化作品
+<br/>信息可视化笔记
 <div class="tiles">
 {% for post in site.categories.infovis %}
   {% include post-grid.html %}
