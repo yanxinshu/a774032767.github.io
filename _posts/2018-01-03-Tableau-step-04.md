@@ -2,7 +2,7 @@
 layout: article
 title:  "Tableau使用笔记04"
 date:   2018-01-03 
-categories: infovis
+categories: 
 image:
   teaser: tableau-note.jpg
 ---
