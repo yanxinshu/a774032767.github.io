@@ -6,6 +6,7 @@ categories: infovis
 image:
   teaser: tableau-note.jpg
 ---
+步骤 2：进行拖放以率先观看
 
 创建视图
 

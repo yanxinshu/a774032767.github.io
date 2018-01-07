@@ -6,6 +6,8 @@ categories: infovis
 image:
   teaser: tableau-note.jpg
 ---
+步骤 1：连接到数据
+
 打开 Tableau Desktop 并开始
 
 
