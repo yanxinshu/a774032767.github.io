@@ -8,7 +8,7 @@ tags: []
 image: 
   teaser: qmzt.jpg
 ---
-
+<img src="https://a774032767.github.io/images/qmzt.jpg" alt="teaser" itemprop="image">
 <br/>信息可视化作品
 <div class="tiles">
 {% for post in site.categories.infovis %}
