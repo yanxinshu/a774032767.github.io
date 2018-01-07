@@ -6,6 +6,7 @@ modified:
 excerpt: ""
 tags: []
 image: 
+  teaser: qmzt.jpg
 ---
 
 <br/>信息可视化作品

@@ -19,16 +19,11 @@ image:
 </div><!-- /.tiles 把所有categories 有 rwd 的列出来-->
 
 
-<br/>[Infovis学习笔记](https://a774032767.github.io/posts/infovis)
+<br/>
+<br>[Infovis学习笔记](https://a774032767.github.io/posts/infovis)
 <div class="tiles">
 {% for post in site.categories.infovis %}
   {% include post-grid.html %}
 {% endfor %}
 </div><!-- /.tiles 把所有categories 有 infovis 的列出来-->
 
-<br/>[Infovis学习笔记](https://a774032767.github.io/posts/portfolio)
-<div class="tiles">
-{% for post in site.categories.portfolio %}
-  {% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles 把所有categories 有 portfolio 的列出来-->
